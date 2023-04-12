@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>teste PHP</title>
+        <title>Formulario 1</title>
         <meta charset="utf-8">
         <meta name="author" content="Lucas Lima">
         <meta name="Description" content="pagina pra integrar banco de dados">
