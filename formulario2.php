@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Formulario 1</title>
+        <title>Formulario 2</title>
         <meta charset="utf-8">
         <meta name="author" content="Lucas Lima">
         <meta name="Description" content="pagina pra integrar banco de dados">
         <meta name="keyword" content="html5 com db">
-        <link rel="stylesheet" href="design.css">
         <style>
 
             .total {
@@ -27,6 +26,7 @@
                 padding: 10px;
                 background: #338c22;
                 border-radius: 8px;
+                text-align: center;
             }
 
             form {
@@ -56,13 +56,13 @@
                 color: white;
             }
 
-            .gener {
+            .turn {
                 position: relative;
                 text-align: left;
                 margin-left: 20px;
             }
 
-            .genero {
+            .turno {
                 display: inline-block;
             }
 
@@ -82,56 +82,80 @@
                 margin-left: 20px;
             }
 
+            .serie {
+                position: relative;
+                margin-left: 20px;
+            }
+
+            .atividade {
+                position: relative;
+                margin-left: 20px;
+            }
+
 
         </style>
     </head>
     <body>
         <div class="total">
-            <form method="POST" action="teste1.php">
-                <legend>Cadastrar Usuário</legend>
+            <form method="POST" action="teste2.php">
+                <legend>Matrícula Aluno</legend>
                 <div class="inputBox">
-                    <label class="labelInput">Nome completo: </label>
-                    <input type="text" name="nome" id="nome" class="inputUser" placeholder="digite o nome completo" required><br><br>
-                    <label class="labelInput">Email: </label>
-                    <input type="email" name="email" id="email" class="inputUser" placeholder="digite o seu email" required><br><br>
-                    <label class="labelInput">Senha: </label>
-                    <input type="password" name="senha" id="senha" class="inputUser" placeholder="digite a senha" required><br><br>
+                    <label class="labelInput">Nome do aluno: </label>
+                    <input type="text" name="nome_aluno" id="nome" class="inputUser" placeholder="digite o nome do aluno" required><br><br>
+                    <label class="labelInput">Nome da mãe: </label>
+                    <input type="text" name="nome_mae" id="mae" class="inputUser" placeholder="digite o nome da mae" required><br><br>
+                    <label class="labelInput">Nome do pai: </label>
+                    <input type="text" name="nome_pai" id="pai" class="inputUser" placeholder="digite o nome do pai" required><br><br>
                     <label class="labelInput">Telefone: </label>
-                    <input type="text" name="telefone" class="inputUser" placeholder="digite seu número" required><br><br>
-                    <label class="labelInput">Cpf: </label>
-                    <input type="text" name="cpf" class="inputUser" placeholder="digite seu cpf" required><br><br>
+                    <input type="text" name="telefone" class="inputUser" placeholder="digite o numero do aluno" required><br><br>
+                    <label class="labelInput">Email: </label>
+                    <input type="email" name="email" id="email" class="inputUser" placeholder="digite o seu email do aluno" required><br><br>
                 </div>
-                <div class="gener">
-                <label class="sexo">Sexo: </label><br><br>
-                    <div class="genero">
-                        <input type="radio" name="genero" value="masculino" required>
-                        <label for="masculino">Masculino</label><br>
+                <div class="turn">
+                <label class="horario">Turno: </label><br><br>
+                    <div class="turno">
+                        <input type="radio" name="tempo" value="manha" required>
+                        <label for="masculino">Manhã</label><br>
                     </div>
                     <div  class="genero">
-                        <input type="radio" name="genero" value="feminino" required>
-                        <label for="feminino">Feminino</label><br>
+                        <input type="radio" name="tempo" value="tarde" required>
+                        <label for="feminino">Tarde</label><br>
                     </div>
                     <div class="genero">
-                        <input type="radio" name="genero" value="outro" required>
-                        <label for="outro">Outro</label><br>
+                        <input type="radio" name="tempo" value="noite" required>
+                        <label for="outro">Noite</label><br>
                     </div>
                 </div><br><br>
                 <div class="nascimento">
                     <label for="data_nascimento"><b>Data de Nascimento: </b></label>
                     <input type="date" name="data_nascimento" required><br><br>
                 </div>  
-                <div class="inputBox">
-                    <label for="cidade" class="labelInput">Cidade</label>
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                </div><br>
-                <div class="inputBox">
-                    <label for="estado" class="labelInput">Estado</label>
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                </div><br>
-                <div class="inputBox">
-                    <label for="endereco" class="labelInput">Endereço</label>
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                </div><br>
+                <div class="serie">
+                    <label>Série: </label><br><br>
+                    <select name="serie">
+                        <option value="pré-escolar">pré-escolar</option>
+                        <option value="1a série 1o grau">1a série 1o grau</option>
+                        <option value="2a série 1o grau">2a série 1o grau</option>
+                        <option value="3a série 1o grau">3a série 1o grau</option>
+                        <option value="4a série 1o grau">4a série 1o grau</option>
+                        <option value="5a série 1o grau">5a série 1o grau</option>
+                        <option value="6a série 1o grau">6a série 1o grau</option>
+                        <option value="7a série 1o grau">7a série 1o grau</option>
+                        <option value="8a série 1o grau">8a série 1o grau</option>
+                        <option value="1a série 2o grau">1a série 2o grau</option>
+                        <option value="2a série 2o grau">2a série 2o grau</option>
+                        <option value="3a série 2o grau">3a série 2o grau</option>
+                    </select>
+                </div><br><br>
+                <div class="atividade">
+                    <label>Atividades Extracurriculares: </label><br><br>
+                    <input type="checkbox" name="inf" value="informática">Informática<br>
+                    <input type="checkbox" name="mus" value="música">Música<br>
+                    <input type="checkbox" name="bal" value="ballet">Balet<br>
+                    <input type="checkbox" name="pin" value="pintar">Pintura<br>
+                    <input type="checkbox" name="jud" value="Judô">Judô<br>
+                    <input type="checkbox" name="fut" value="futebol">Futebol<br>
+                </div><br><br>
                 <input type="submit" class="resposta" value="Enviar">
             </form>
         </div>

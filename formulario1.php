@@ -6,7 +6,6 @@
         <meta name="author" content="Lucas Lima">
         <meta name="Description" content="pagina pra integrar banco de dados">
         <meta name="keyword" content="html5 com db">
-        <link rel="stylesheet" href="design.css">
         <style>
 
             .total {
@@ -122,15 +121,15 @@
                     <input type="date" name="data_nascimento" required><br><br>
                 </div>  
                 <div class="inputBox">
-                    <label for="cidade" class="labelInput">Cidade</label>
+                    <label for="cidade" class="labelInput">Cidade: </label>
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
                 </div><br>
                 <div class="inputBox">
-                    <label for="estado" class="labelInput">Estado</label>
+                    <label for="estado" class="labelInput">Estado: </label>
                     <input type="text" name="estado" id="estado" class="inputUser" required>
                 </div><br>
                 <div class="inputBox">
-                    <label for="endereco" class="labelInput">Endereço</label>
+                    <label for="endereco" class="labelInput">Endereço: </label>
                     <input type="text" name="endereco" id="endereco" class="inputUser" required>
                 </div><br>
                 <input type="submit" class="resposta" value="Enviar">
