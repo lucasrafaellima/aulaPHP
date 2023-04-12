@@ -71,11 +71,17 @@
                 padding-left: 40%;
                 padding-right: 40%;
                 margin-bottom: 10px;
+                margin-left: 20px;
                 background: #338c22;
                 border: 1px solid #338c22;
                 border-radius: 10px;
                 color: white;
             }
+
+            .nascimento {
+                margin-left: 20px;
+            }
+
 
         </style>
     </head>
@@ -110,8 +116,10 @@
                         <label for="outro">Outro</label><br>
                     </div>
                 </div><br><br>
-                <label for="data_nascimento"><b>Data de Nascimento: </b></label>
-                <input type="date" name="data_nascimento" required><br><br>
+                <div class="nascimento">
+                    <label for="data_nascimento"><b>Data de Nascimento: </b></label>
+                    <input type="date" name="data_nascimento" required><br><br>
+                </div>  
                 <div class="inputBox">
                     <label for="cidade" class="labelInput">Cidade</label>
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
