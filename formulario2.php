@@ -134,17 +134,17 @@
                     <label>Série: </label><br><br>
                     <select name="serie">
                         <option value="pré-escolar">pré-escolar</option>
-                        <option value="1a série 1o grau">1a série 1o grau</option>
-                        <option value="2a série 1o grau">2a série 1o grau</option>
-                        <option value="3a série 1o grau">3a série 1o grau</option>
-                        <option value="4a série 1o grau">4a série 1o grau</option>
-                        <option value="5a série 1o grau">5a série 1o grau</option>
-                        <option value="6a série 1o grau">6a série 1o grau</option>
-                        <option value="7a série 1o grau">7a série 1o grau</option>
-                        <option value="8a série 1o grau">8a série 1o grau</option>
-                        <option value="1a série 2o grau">1a série 2o grau</option>
-                        <option value="2a série 2o grau">2a série 2o grau</option>
-                        <option value="3a série 2o grau">3a série 2o grau</option>
+                        <option value="1a série 1o grau">1a série 1o grau</option required>
+                        <option value="2a série 1o grau">2a série 1o grau</option required>
+                        <option value="3a série 1o grau">3a série 1o grau</option required>
+                        <option value="4a série 1o grau">4a série 1o grau</option required>
+                        <option value="5a série 1o grau">5a série 1o grau</option required>
+                        <option value="6a série 1o grau">6a série 1o grau</option required>
+                        <option value="7a série 1o grau">7a série 1o grau</option required>
+                        <option value="8a série 1o grau">8a série 1o grau</option required>
+                        <option value="1a série 2o grau">1a série 2o grau</option required>
+                        <option value="2a série 2o grau">2a série 2o grau</option required>
+                        <option value="3a série 2o grau">3a série 2o grau</option required>
                     </select>
                 </div><br><br>
                 <div class="atividade">
