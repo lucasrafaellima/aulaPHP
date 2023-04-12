@@ -27,7 +27,6 @@
                 padding: 10px;
                 background: #338c22;
                 border-radius: 8px;
-                text-align: center;
             }
 
             form {
