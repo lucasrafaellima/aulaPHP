@@ -102,7 +102,7 @@
                     <input type="text" name="cpf" class="inputUser" placeholder="digite seu cpf" required><br><br>
                 </div>
                 <div class="gener">
-                <label class="sexo">Sexo: </label><br><br>
+                    <label class="sexo">Genero: </label><br><br>
                     <div class="genero">
                         <input type="radio" name="genero" value="masculino" required>
                         <label for="masculino">Masculino</label><br>

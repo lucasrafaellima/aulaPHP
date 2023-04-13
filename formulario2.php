@@ -112,19 +112,19 @@
                     <input type="email" name="email" id="email" class="inputUser" placeholder="digite o seu email do aluno" required><br><br>
                 </div>
                 <div class="turn">
-                <label class="horario">Turno: </label><br><br>
-                    <div class="turno">
-                        <input type="radio" name="tempo" value="manha" required>
-                        <label for="masculino">Manhã</label><br>
-                    </div>
-                    <div  class="genero">
-                        <input type="radio" name="tempo" value="tarde" required>
-                        <label for="feminino">Tarde</label><br>
-                    </div>
-                    <div class="genero">
-                        <input type="radio" name="tempo" value="noite" required>
-                        <label for="outro">Noite</label><br>
-                    </div>
+                    <label class="horario">Turno: </label><br><br>
+                        <div class="turno">
+                            <input type="radio" name="tempo" value="manha" required>
+                            <label for="masculino">Manhã</label><br>
+                        </div>
+                        <div  class="genero">
+                            <input type="radio" name="tempo" value="tarde" required>
+                            <label for="feminino">Tarde</label><br>
+                        </div>
+                        <div class="genero">
+                            <input type="radio" name="tempo" value="noite" required>
+                            <label for="outro">Noite</label><br>
+                        </div>
                 </div><br><br>
                 <div class="nascimento">
                     <label for="data_nascimento"><b>Data de Nascimento: </b></label>
