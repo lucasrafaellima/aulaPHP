@@ -17,6 +17,7 @@
                 background-color: rgba(0,0,0,0.8);
                 padding: 15px;
                 border-radius: 15px;
+                margin-top: 170px;
                 width: 20%;
             }
 
@@ -71,7 +72,7 @@
                 padding-left: 40%;
                 padding-right: 40%;
                 margin-bottom: 10px;
-                margin-left: 20px;
+                margin-left: 10px;
                 background: #338c22;
                 border: 1px solid #338c22;
                 border-radius: 10px;

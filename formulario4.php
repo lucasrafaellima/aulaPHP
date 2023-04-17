@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Formulario 3</title>
+        <title>Formulario 4</title>
         <meta charset="utf-8">
         <meta name="author" content="Lucas Lima">
         <meta name="Description" content="pagina pra integrar banco de dados">
@@ -17,6 +17,7 @@
                 background-color: rgba(0,0,0,0.8);
                 padding: 15px;
                 border-radius: 15px;
+                margin-top: 100px;
                 width: 20%;
             }
 
@@ -71,7 +72,7 @@
                 padding-left: 40%;
                 padding-right: 40%;
                 margin-bottom: 10px;
-                margin-left: 20px;
+                margin-left: 10px;
                 background: #338c22;
                 border: 1px solid #338c22;
                 border-radius: 10px;
